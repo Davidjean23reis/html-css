@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de tabelas grandes</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        width: 600px;
+        height: 50px;
+        position: relative;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      thead,
+      tfoot {
+        background-color: dimgray;
+        color: beige;
+      }
+      thead > tr >th {
+        position: sticky;
+        top: -1px;
+        background-color: darkgrey;
+        
+      }
+      tbody > tr:nth-child(2n) {
+        background-color: rgb(158, 183, 204);
+      }
+      td,
+      num {
+        text-align: left;
+      }
+      caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: darkgrey;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Uso de Tabelas Grandes</h1>
+    <table>
+        <caption> População das Unidades Federativas </caption>
+      <thead>
+        <tr>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width:50px;">População</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45 919 049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21 168 791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17 264 943</td>
+        </tr>
+        <tr>
+          <td>Roraima</td>
+          <td class="num">15 250 363</td>
+        </tr>
+        <tr>
+          <td>Mato Grosso</td>
+          <td class="num">10 252 741</td>
+        </tr>
+        <tr>
+          <td>Manaus</td>
+          <td class="num">12 120 102</td>
+        </tr>
+        <tr>
+          <td>Rio Grande do Sul</td>
+          <td class="num">13 023 100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total de Habitantes</th>
+          <td class="num"><strong> 160 125</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione hic voluptas minus dicta rerum officia animi blanditiis magnam excepturi, quasi natus porro maxime voluptate ut. Perspiciatis ratione nulla quisquam nostrum?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quas ullam dolorum similique unde fugit quod recusandae commodi, ex error quidem, labore quasi tempore earum! Assumenda magni iusto odio animi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatibus animi debitis ducimus repellat molestiae est rerum? Voluptatibus qui voluptatem voluptas sapiente eligendi, vero beatae hic quam quisquam quo molestias.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ex voluptates cum at ullam autem sequi aspernatur. Incidunt, quis similique! Officiis tempora ad enim quidem, culpa vitae optio sed illo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequuntur adipisci praesentium est, alias hic placeat, atque mollitia repudiandae, velit nam perferendis. Sit quia id minus et ducimus consequuntur quasi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe blanditiis cum deleniti repellendus assumenda obcaecati voluptas reprehenderit. Magnam neque voluptates provident veniam inventore illum esse? Animi repellendus sed dolorum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad sit blanditiis dicta quibusdam aliquid ut architecto eveniet voluptate temporibus vel, sint nihil dignissimos odit accusamus commodi expedita cum distinctio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa quae eveniet ratione voluptates obcaecati culpa! Incidunt exercitationem consequatur doloremque placeat? At dolorem nulla culpa corporis quibusdam hic assumenda debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non ipsum consequatur tempore veniam numquam hic quidem recusandae. Repellendus voluptatum magnam in impedit est praesentium quia incidunt sint. Doloremque, cum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quis facere esse accusamus culpa. Facere, molestias maiores labore possimus earum reiciendis dicta nihil, corporis sequi suscipit minima mollitia? Repudiandae, soluta.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore odio quidem ab impedit, architecto quaerat porro ratione sequi natus fugit obcaecati praesentium ipsam tempora ipsa id quod molestias voluptate modi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam quam architecto delectus quasi fugit molestias vero. Quod temporibus, quasi aliquam obcaecati pariatur voluptas magni labore asperiores ipsa consequatur quos.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ea quam temporibus! Magni, unde eligendi! Cum eius nostrum quis labore doloremque modi assumenda et, fuga qui molestiae debitis accusamus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, quam. Facere excepturi, accusamus labore adipisci quos amet officiis voluptatem iure? Natus eum est, esse voluptates unde magnam hic non iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis non impedit aperiam ad corporis, quisquam adipisci laudantium eveniet optio eaque, qui vitae quis ex animi repellendus dignissimos culpa nulla?</p>
+  </body>
+</html>
