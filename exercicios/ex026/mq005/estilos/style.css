@@ -15,12 +15,27 @@ header {
 header > h1 {
   text-align: center;
 }
+
+i#burger {
+  background-color: rgb(77, 74, 74);
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+i#burger:hover {
+  background-color: white;
+  color: black;
+}
+
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 menu {
-  display: block;
+  display: none;
 }
 
 menu > ul {

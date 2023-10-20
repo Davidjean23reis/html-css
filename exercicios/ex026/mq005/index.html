@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Query</title>
-    <link rel="stylesheet" href="estilos/style.css">
-</head>
-<body>
-     <header>
-        <h1> Meu Site</h1>
-        <menu>
-            <ul>
-                <li> <a href="#">Opção 1</a></li>
-                <li> <a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
-                <li><a href="#">Opção 5</a></li>
-            </ul>
-        </menu>
-     </header>
-     <main>
-         <article>
-                <h2>Testando Media Queries</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, magnam necessitatibus, natus veniam fuga tenetur molestiae corporis incidunt voluptate, nisi ad quis sit odit ratione neque maxime. Expedita, saepe vero.</p>
-                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis cum amet facere molestiae placeat earum doloremque iste at, odio incidunt harum optio neque. Illum ipsam labore unde quos voluptates.</P>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusamus fugit at laborum eaque in vitae sapiente quis, ipsam voluptate, maxime dolorum voluptatem optio maiores. Omnis, itaque aspernatur. Ex, expedita!</P>
-                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, est, tempora reiciendis facere dignissimos nemo recusandae animi repellat unde ad ut cupiditate ducimus? Maiores debitis velit, molestiae a ducimus inventore.</P>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, architecto eum quidem saepe repellendus quod, ducimus dignissimos autem error possimus ullam reprehenderit omnis officiis ipsa dolorem, excepturi labore quos placeat!</P>
-         </article>
-     </main>
-</body>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          magnam necessitatibus, natus veniam fuga tenetur molestiae corporis
+          incidunt voluptate, nisi ad quis sit odit ratione neque maxime.
+          Expedita, saepe vero.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          quis cum amet facere molestiae placeat earum doloremque iste at, odio
+          incidunt harum optio neque. Illum ipsam labore unde quos voluptates.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          accusamus fugit at laborum eaque in vitae sapiente quis, ipsam
+          voluptate, maxime dolorum voluptatem optio maiores. Omnis, itaque
+          aspernatur. Ex, expedita!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores,
+          est, tempora reiciendis facere dignissimos nemo recusandae animi
+          repellat unde ad ut cupiditate ducimus? Maiores debitis velit,
+          molestiae a ducimus inventore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
+          architecto eum quidem saepe repellendus quod, ducimus dignissimos
+          autem error possimus ullam reprehenderit omnis officiis ipsa dolorem,
+          excepturi labore quos placeat!
+        </p>
+      </article>
+    </main>
+    <script>
+      function clickMenu() {
+        if (itens.style.display == "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
+  </body>
 </html>
